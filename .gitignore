@@ -1,0 +1,4 @@
+data/certbot/conf/*
+data/certbot/www/*
+data/nginx/conf.d/*
+!data/nginx/conf.d/*.example
