@@ -44,8 +44,8 @@ sudo ./init-letsencrypt.sh \
 ### How to make docker compose (V2) to be system-wide
 
 ```sh
-sudo mkdir -p /usr/lib/docker/cli-plugins
-sudo cp ~/.docker/cli-plugins/docker-compose /usr/lib/docker/cli-plugins/docker-compose
+sudo mkdir -p /usr/local/lib/docker/cli-plugins
+sudo cp ~/.docker/cli-plugins/docker-compose /usr/local/lib/docker/cli-plugins/docker-compose
 
 # or
 
